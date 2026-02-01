@@ -1,5 +1,6 @@
 T![Bild_1_Fertiges Gerät](https://github.com/user-attachments/assets/b4304353-8f43-4a9e-9f8c-ff6eb5268660)
-he circuits "pumps" 12V pulsed voltage into your 1.5 V alkaline batteryuntil a threshold voltage is reached. This process is controlled by a ESP32 microprocessor. In this case an ESP32 D1 mini is used. 
+
+The circuits "pumps" 12V pulsed voltage into your 1.5 V alkaline batteryuntil a threshold voltage is reached. This process is controlled by a ESP32 microprocessor. In this case an ESP32 D1 mini is used. 
 
 An Arduino sketch with one main-program and four subfunctions is available here. The project is based on home assistant. Home Assistant is necessary for the MQTT-comunication and as display for the whole process. 
 You may kick out this part of the sketch and use it without MQTT-communication and home assistant integration.
