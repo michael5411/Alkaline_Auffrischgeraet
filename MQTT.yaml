@@ -1,0 +1,57 @@
+mqtt:
+  sensor:
+  
+# MQTT-Sensoren mit Timeout
+  - name: "Batterie 1"
+    unique_id: batterie_1
+    state_topic: "mqttuser/aklader/batt1"
+    unit_of_measurement: "V"
+    qos: 1
+    expire_after: 30
+
+  - name: "Batterie 2"
+    unique_id: batterie_2
+    state_topic: "mqttuser/aklader/batt2"
+    unit_of_measurement: "V"
+    qos: 1
+    expire_after: 30
+
+  - name: "Batterie 3"
+    unique_id: batterie_3
+    state_topic: "mqttuser/aklader/batt3"
+    unit_of_measurement: "V"
+    qos: 1
+    expire_after: 30
+
+  - name: "Batterie_4"
+    unique_id: batterie_4
+    state_topic: "mqttuser/aklader/batt4"
+    unit_of_measurement: "V"
+    qos: 1
+    expire_after: 30
+    
+  - name: "Batterie_1_stat"
+    unique_id: batt1stat
+    state_topic: "mqttuser/aklader/batt1stat"
+    expire_after: 30
+    qos: 0
+
+  - name: "Batterie_2_stat"
+    unique_id: batt2stat
+    state_topic: "mqttuser/aklader/batt2stat"
+    expire_after: 30
+    qos: 0
+
+  - name: "Batterie_3_stat"
+    unique_id: batt3stat
+    state_topic: "mqttuser/aklader/batt3stat"
+    expire_after: 30
+    qos: 0
+
+  - name: "Batterie_4_stat"
+    unique_id: batt4stat
+    state_topic: "mqttuser/aklader/batt4stat"
+    expire_after: 30
+    qos: 0
+
+
